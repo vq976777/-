@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "解除飞书/Lark文档的复制限制，自由选中、复制、右键文档内容",
   "author": "Feishu Doc Unlocker Contributors",
-  "homepage_url": "https://github.com/Q9767/feishu-doc-unlocker",
+  "homepage_url": "https://github.com/vq976777/feishu-doc-unlocker",
 
   "icons": {
     "16": "icons/icon16.png",
