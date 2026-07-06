@@ -47,7 +47,7 @@ Feishu/Lark applies three layers of copy protection:
 
 1. Download or clone this repository:
    ```bash
-   git clone https://github.com/your-username/feishu-doc-unlocker.git
+   git clone https://github.com/Q9767/feishu-doc-unlocker.git
    ```
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable **Developer mode** (top-right toggle)
@@ -152,7 +152,7 @@ MIT License — see [LICENSE](./LICENSE) for details.
 
 1. 下载或克隆此仓库：
    ```bash
-   git clone https://github.com/your-username/feishu-doc-unlocker.git
+   git clone https://github.com/Q9767/feishu-doc-unlocker.git
    ```
 2. 打开 Chrome 浏览器，进入 `chrome://extensions/`
 3. 打开右上角的 **开发者模式** 开关
