@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feishu Doc Unlocker</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1 class="title">
+        <span class="icon">&#128275;</span>
+        飞书文档解锁器
+      </h1>
+      <p class="subtitle">Feishu Doc Unlocker</p>
+    </header>
+
+    <!-- Status -->
+    <div class="status-section">
+      <div class="status-row">
+        <span class="status-label">当前状态</span>
+        <span id="statusText" class="status-badge status-on">已解锁</span>
+      </div>
+      <p id="statusDesc" class="status-desc">
+        文本已可自由选中、复制、右键
+      </p>
+    </div>
+
+    <!-- Toggle -->
+    <div class="toggle-section">
+      <button id="toggleBtn" class="toggle-btn toggle-btn--on">
+        <span class="toggle-track">
+          <span class="toggle-thumb"></span>
+        </span>
+        <span class="toggle-text">点击切换</span>
+      </button>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions">
+      <button id="copyAllBtn" class="action-btn action-btn--primary">
+        <span class="btn-icon">&#128203;</span>
+        复制全文内容
+      </button>
+      <button id="reloadBtn" class="action-btn action-btn--secondary">
+        <span class="btn-icon">&#128260;</span>
+        重新检测
+      </button>
+    </div>
+
+    <!-- Copy feedback -->
+    <div id="toast" class="toast hidden"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>支持：feishu.cn &middot; larkoffice.com &middot; larksuite.com</p>
+      <p class="footer-links">
+        <a href="https://github.com/your-username/feishu-doc-unlocker" target="_blank">GitHub</a>
+        &middot;
+        <span>v1.0.0</span>
+      </p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
